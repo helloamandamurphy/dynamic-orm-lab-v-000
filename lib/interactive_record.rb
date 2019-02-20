@@ -18,6 +18,8 @@ class InteractiveRecord
     column_names.compact
   end
   
+  attr_accessor column_names.to_sym
+  
   def initialize
     
   end 
